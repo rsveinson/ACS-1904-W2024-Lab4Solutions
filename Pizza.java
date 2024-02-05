@@ -21,6 +21,14 @@ public enum Pizza
         price = p;
     }// end constructor
     
+    public String getFriendlyName(){
+        return friendlyName;
+    }// end get friendly name
+    
+    public double getPrice(){
+        return price;
+    }// end getprice
+    
     public void setPrice(double p){
         price = p;
     }

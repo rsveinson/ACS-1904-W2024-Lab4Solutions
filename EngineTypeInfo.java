@@ -9,6 +9,8 @@ public class EngineTypeInfo{
         Scanner scanner = new Scanner(System.in);
 
         // must use .values() to create an array
+        // or
+        // for(EngineType e : EngineType.values())
         EngineType[] engines = EngineType.values();
 
         for(EngineType e : engines){
